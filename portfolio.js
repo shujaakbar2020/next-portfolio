@@ -188,12 +188,16 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Backend/Api",
+		progressPercentage: "90",
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		progressPercentage: "60", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Infrastructure as Code",
+		progressPercentage: "40",
 	},
 	{
 		Stack: "Programming",
@@ -239,7 +243,7 @@ export const experience = [
 		company: "DevHood.io",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Dec 2020 - Feb 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+		desc: "Develop and Automate different test case scenarios on Django based applications.",
 	}
 	// {
 	// 	role: "Backend Developer",
