@@ -16,7 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	// url: "https://1hanzla100.github.io/",
+	url: "https://shujaakbar.netlify.app/",
 	linkedin: "https://www.linkedin.com/in/shuja-akbar/",
 	github: "https://github.com/shujaakbar2020",
 	instagram: "https://www.instagram.com/shujaakbar/",
@@ -312,8 +312,8 @@ export const seoData = {
 	description:
 		"A passionate Backend Solution Architect and Infrastructure Developer.",
 	author: "Shuja Akbar",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	// url: "https://developer-portfolio-1hanzla100.vercel.app",
+	image: "https://avatars.githubusercontent.com/u/59687688?v=4",
+	url: "https://shujaakbar.netlify.app/",
 	keywords: [
 		"Shuja",
 		"Shuja Akbar",
