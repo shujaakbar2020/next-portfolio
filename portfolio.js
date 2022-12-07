@@ -252,25 +252,37 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "developer-portfolio",
+		name: "Ecommerce Backend",
+		desc: "Ecommerce Backend as API built with Django REST framework using best practices, it supports all Frontend platforms.",
+		github: "https://github.com/shujaakbar2020/drf-ecommerce",
+	},
+	{
+		name: "Ecommerce Frontend",
+		desc: "Responsive Ecommerce Frontend built with ReactJS and Bootstrap.",
+		github: "https://github.com/shujaakbar2020/ecomfrontend",
+		link: "https://shop-by-shuja.netlify.app/",
+	},
+	{
+		name: "Django Portfolio",
+		desc: "Software Developer Portfolio Template built with Django and Bootstrap that helps you showcase your work and skills as a software developer.",
+		github: "https://github.com/shujaakbar2020/Portfolio",
+		link: "https://shujaakbar.herokuapp.com",
+	},
+	{
+		name: "NextJS Portfolio",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		github: "https://github.com/shujaakbar2020/next-portfolio",
+		link: "https://shujaakbar.netlify.app/",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Flask Sever Automation",
+		desc: "Template to automate your flask server deployment with Docker and Jenkins on Kubernetes",
+		github: "https://github.com/shujaakbar2020/flask-docker-jenkins-k8s",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
-	},
-	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "Kubernetes Automation",
+		desc: "Manage and automate your kubernetes setup with Django",
+		github: "https://github.com/shujaakbar2020/WebAutomation",
 	},
 ];
 
