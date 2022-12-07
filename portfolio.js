@@ -239,7 +239,7 @@ export const experience = [
 		desc: "I worked here as associate software engineer, I worked with backend and Infrasturcture management technologies with Python Django and Amazon Web Services as Cloud Infrastructure.",
 	},
 	{
-		role: "Text Automation Engineer",
+		role: "Test Automation Engineer",
 		company: "DevHood.io",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Dec 2020 - Feb 2021",
