@@ -47,6 +47,7 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(form.current);
           setAlert(successAlert);
         },
         (error) => {
