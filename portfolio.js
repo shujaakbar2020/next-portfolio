@@ -16,11 +16,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://shujaakbar.netlify.app/",
+	url: "https://shujaakbar.com/",
 	linkedin: "https://www.linkedin.com/in/shuja-akbar/",
 	github: "https://github.com/shujaakbar2020",
 	instagram: "https://www.instagram.com/shujaakbar/",
 	facebook: "https://web.facebook.com/shuja.akbar.92",
+	hackerrank: "https://www.hackerrank.com/shujaakbar2020",
 };
 
 export const skillsSection = {
@@ -313,7 +314,7 @@ export const seoData = {
 		"A passionate Backend Solution Architect and Infrastructure Developer.",
 	author: "Shuja Akbar",
 	image: "https://avatars.githubusercontent.com/u/59687688?v=4",
-	url: "https://shujaakbar.netlify.app/",
+	url: "https://shujaakbar.com/",
 	keywords: [
 		"Shuja",
 		"Shuja Akbar",
