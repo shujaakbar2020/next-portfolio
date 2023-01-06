@@ -34,34 +34,25 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
 					"⚡ Building RESTful APIs in Django & Django REST Framework"
 				),
+				emoji(
+					"⚡ Having extensive experience in RestAPIs development."
+				),
+				emoji("⚡ Strong hand-coding ability with Python"),
+				emoji("⚡ Experience in working with PostgreSQL, MySQL"),
+				emoji("⚡ Proficient in working with Kubernetes (1 year, production-grade experience) and Docker"),
+				emoji("⚡ Have working experience with AWS(EC2, S3, Autoscaling, IAM)"),
 			],
 			softwareSkills: [
-				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
-				},
-				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
-				},
+				// {
+				// 	skillName: "HTML-5",
+				// 	fontAwesomeClassname: "vscode-icons:file-type-html",
+				// },
+				// {
+				// 	skillName: "CSS-3",
+				// 	fontAwesomeClassname: "vscode-icons:file-type-css",
+				// },
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
@@ -70,10 +61,21 @@ export const skillsSection = {
 					skillName: "Django",
 					fontAwesomeClassname: "vscode-icons:file-type-django",
 				},
-
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Flask",
+					fontAwesomeClassname: "logos:flask",
+				},
+				{
+					skillName: "JavaScript",
+					fontAwesomeClassname: "logos:javascript",
+				},
+				{
+					skillName: "Nextjs",
+					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+				},
+				{
+					skillName: "Redis",
+					fontAwesomeClassname: "logos:redis",
 				},
 				{
 					skillName: "NPM",
@@ -128,62 +130,11 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:github-actions",
 				},
 				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
 					skillName: "Nginx",
 					fontAwesomeClassname: "logos:nginx",
 				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
 			],
 		},
-		// {
-		// 	title: "Blockchain",
-		// 	lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-		// 	skills: [
-		// 		emoji(
-		// 			"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-		// 		),
-		// 		emoji(
-		// 			"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-		// 		),
-		// 		emoji(
-		// 			"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-		// 		),
-		// 		emoji(
-		// 			"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-		// 		),
-		// 		emoji(
-		// 			"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-		// 		),
-		// 	],
-		// 	softwareSkills: [
-		// 		{
-		// 			skillName: "Ethereum",
-		// 			fontAwesomeClassname: "logos:ethereum",
-		// 		},
-		// 		{
-		// 			skillName: "Solidity",
-		// 			fontAwesomeClassname: "logos:solidity",
-		// 		},
-		// 		{
-		// 			skillName: "Web3js",
-		// 			fontAwesomeClassname: "logos:web3js",
-		// 		},
-		// 		{
-		// 			skillName: "Metamask",
-		// 			fontAwesomeClassname: "logos:metamask-icon",
-		// 		},
-		// 		{
-		// 			skillName: "Ganache",
-		// 			fontAwesomeClassname: "logos:ganache-icon",
-		// 		},
-		// 	],
-		// },
 	],
 };
 
@@ -198,11 +149,11 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Infrastructure as Code",
-		progressPercentage: "40",
+		progressPercentage: "50",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 ];
 
@@ -227,10 +178,6 @@ export const experience = [
 		companylogo: "/img/icons/common/freelancer.png",
 		date: "Aug 2022 – Present",
 		desc: "I am working as freelance Backend Solution Architect on multiple platforms. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
 	},
 	{
 		role: "Associate Software Engineer",
@@ -246,13 +193,6 @@ export const experience = [
 		date: "Dec 2020 - Feb 2021",
 		desc: "Develop and Automate different test case scenarios on Django based applications.",
 	}
-	// {
-	// 	role: "Backend Developer",
-	// 	company: "Wapidu",
-	// 	companylogo: "/img/icons/common/edraak-systems-1.png",
-	// 	date: "Sept 2021",
-	// 	desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	// },
 ];
 
 export const projects = [
@@ -291,7 +231,7 @@ export const projects = [
 	},
 ];
 
-export const feedbacks = [
+// export const feedbacks = [
 	// {
 	// 	name: "John Smith",
 	// 	feedback:
@@ -302,7 +242,7 @@ export const feedbacks = [
 	// 	feedback:
 	// 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
 	// },
-];
+// ];
 
 // option to hide or show the ContactUs component
 export const showContactUs = true;
