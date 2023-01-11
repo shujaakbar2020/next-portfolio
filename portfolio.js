@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Backend Developer having an experience of web applications with Python, Django and Django REST Framework development",
 	resumeLink:
-		"https://raw.githubusercontent.com/shujaakbar2020/Resume/main/Shuja-Akbar-CV.pdf",
+		"https://raw.githubusercontent.com/shujaakbar2020/Resume/main/Shuja-Akbar-Backend-CV.pdf",
 };
 
 export const openSource = {
